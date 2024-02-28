@@ -1,0 +1,9 @@
+{
+    "include": [
+        "lib/typedeclarations.d.ts"
+    ],
+    "typedocOptions": {
+        "entryPoints": ["lib/typedeclarations.d.ts"],
+        "out": "docs"
+    }
+}

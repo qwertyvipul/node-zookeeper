@@ -44,6 +44,7 @@
         "eslint-plugin-import": "2.x",
         "prebuildify": "5.0.0",
         "sinon": "12.x",
+        "typedoc": "^0.25.9",
         "typescript": "^4.0.5"
     },
     "main": "./lib/index.js",
@@ -55,7 +56,8 @@
         "test": "ava ./tests/unit/**/*.js",
         "test-components": "ava ./tests/components/**/*.js",
         "test-integration": "ava ./tests/integration/*.js --",
-        "type-declarations": "tsc --outFile ./lib/typedeclarations.d.ts"
+        "type-declarations": "tsc --outFile ./lib/typedeclarations.d.ts",
+        "typedoc": "typedoc --tsconfig ./typedoc.tsconfig.json"
     },
     "engines": {
         "node": ">=14.15.4"

@@ -1,0 +1,5 @@
+{
+    "includes": ["lib/typedeclarations.d.ts"],
+    "entryPoints": ["lib/typedeclarations.d.ts"],
+    "out": "docs"
+}
