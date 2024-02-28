@@ -2,6 +2,12 @@
 
 Fork this repo, write code and send a pull request. Easy!
 
+## Setup instructions
+
+1. `git clone git@github.com:yfinkelstein/node-zookeeper.git`
+2. `git checkout -b <your_feature_branch>`
+3. `npm install`
+
 ### Guidelines
 * Create a branch for the feature you are about to write.
 * If possible, isolate the changes in the branch to the feature only. Merges will be easier if general refactorings, that are not specific to the feature, are made in separate branches.
